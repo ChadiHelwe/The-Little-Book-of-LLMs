@@ -1,0 +1,37 @@
+\chapter{What is an LLM?}
+In November 2022, on a rainy day at the Institut Polytechnique de Paris, I was sitting at my desk, sipping coffee and reflecting on a research problem I had been working on for some time. At that point, I was pursuing a PhD in computer science with a specialization in Artificial Intelligence. I opened Twitter (yes, it was still not called X then), and my timeline was flooded with news about an AI model called ChatGPT from OpenAI. Curious, I went online to explore this AI model, which had a chatbot interface. I decided to try it out and asked the chatbot to write about a topic related to Paris. Within just a few seconds, it produced an excellent article. 
+
+Excited, I went directly to my advisor's office to show him the model. He suggested that I ask it some questions related to my current research, which focused on logical reasoning tasks. To my surprise, ChatGPT was able to solve all the questions I posed. While my advisor and I were astonished by its capabilities, I couldn't help but feel a bit uneasy. The AI had effectively solved my research problem, leaving me to reconsider my next steps in my PhD. But that's a story for another time.
+
+On that day, we marked the beginning of an era: the period before ChatGPT and the period after it. Following this event, most sectors and companies began to adopt similar AI technology. This technology is now everywhere. For example, when you text your partner on your smartphone and make a mistake, your device suggests a correction. It's also present on your social media feeds, where you receive tweets on topics of interest, and it helps discover new drugs and boost developers' productivity in coding.
+
+While these applications are impressive, they raise an important question: What is ChatGPT, and what technology is behind it?
+
+This technology is known as a Large Language Model (LLM). Specifically, models like ChatGPT, which are classified as autoregressive models, work by predicting the next word based on the context. For example, if you were texting your girlfriend and wrote, "I love you, you are ...", an LLM would likely predict "beautiful" as the next word, which makes sense in that context.
+
+But how does a machine learn to select the right word from thousands of possibilities? 
+
+
+The answer lies in training. Before ChatGPT was released for user interaction, the model was trained on a vast amount of data, including the entire web. In this context, training involves the model processing a significant portion of the internet, which includes books, articles, scientific papers, conversations, code, news, and more. From this extensive dataset, the model learns one primary task: to predict the next word. This process is referred to as \textbf{Pretraining}.
+
+Although it may seem simple, learning to predict the next word proves to be quite powerful. Why does it work?  Ilya Sutskever, one of the co-founders of OpenAI, the organization behind ChatGPT, offers insight: "Predicting the next token well means that you understand the underlying reality that led to the creation of that token... It is statistics, but what is statistics? In order to understand those statistics, to compress them, you need to understand what is it about the world that creates those statistics."
+
+
+Training an LLM involves more than just pretraining; it typically includes two additional stages: \textbf{Supervised Finetuning (SFT)} and \textbf{Preference Finetuning}.
+
+
+
+
+\itodo{
+
+\begin{itemize}
+    \item Add Ilya, introducing him and his explanation of next word prediction
+    \item Discuss the other training briefly
+    \item Briefly Discuss Transformers architecture
+\end{itemize}
+}
+
+
+
+
+
